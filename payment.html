@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/payment.css"/>
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <title>Payment</title>
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+            <div class="header-logo">
+                <a href="index.html"><h2>VietNam</h2></a>
+                <div class="logo-bottom">
+                    <div class="line-left"></div>
+                    <div class="flag">
+                        <img src="./img/star.png">
+                    </div>
+                    <div class="line-right"></div>
+                </div>  
+            </div>
+            <i class="fa-solid fa-bars"></i>
+            <div class="header-menu">
+                <ul class="menu">
+                    <li class="menu-item menu-active"><a href="index.html">Home</a></li>
+                    <li class="menu-item">About us</li>
+                    <li class="menu-item">News</li>
+                    <li class="menu-item"><a href="booking.html">Booking</a></li>
+                    <li class="menu-item"><a href="payment.html">Payment</a></li>
+                    <li class="menu-item"><img src="./img/glass.png"></img></li>
+                </ul>
+            </div>
+            <div class="header-button">
+                <button class="btn btn-login">Log in</button>    
+                <button class="btn btn-signup">Sign up</button>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="payment-option">
+                <div class="title">
+                    <h2>Payment options</h2>
+                </div>
+                <div class="option">
+                    <div class="option-item">
+                        Creadit card
+                    </div>
+
+                    <div class="option-item">
+                        Online banking
+                    </div>
+
+                    <div class="option-item">
+                        Payment partners
+                    </div>
+                </div>
+            </div>
+
+            <div class="checkout">
+                <div class="form-infomation">
+                    <div class="checkout-option">
+                        <img src="./img/payment/visa.png" class="visa">
+                        <img src="./img/payment/master card.png">
+                        <img src="./img/payment/pay pal.png">
+                    </div>
+
+                    <form action="#" class="form-name">
+                        <div class="form-name-item">
+                            <div>
+                                <h5>Cardholder name</h5>
+                                <input type="text" name="" id="" placeholder="Aries Vu">
+                            </div>
+                            <div>
+                                <h4>CVC</h4>
+                                <input type="password" name="" id="" placeholder="" value="123456">
+                            </div>
+                        </div>
+
+                        <div class="form-name-item">
+                            <div>
+                                <h5>Card number</h5>
+                                <input type="password" name="" id="" placeholder="" value="123456">
+                            </div>
+                            <div>
+                                <h4>MM/YY</h4>
+                                <input type="password" name="" id="" placeholder="" value="123456">
+                            </div>
+                        </div>
+                        
+                        <h3>Contract infomation</h3>
+
+                        <div class="form-name-item">
+                            <div>
+                                <h5>Email</h5>
+                                <input type="email" name="" id="" placeholder="ariesvu@gmail.com">
+                            </div>
+                        </div>
+
+                        <div class="form-name-item">
+                            <div>
+                                <h5>Cardholder name</h5>
+                                <input type="text" name="" id="" placeholder="01234567899">
+                            </div>
+                        </div>
+
+                        <input type="checkbox" id="accept" name="accept" value="">
+                        <label for="accept" class="accept"> I accept with this terms and conditions</label>
+                    </form>
+                </div>
+                <div class="summary">
+                    <h4>Booking summary</h4>
+
+                    <div class="bill">
+                        <div class="bill-item">
+                            <div class="title">
+                                Hotel fee - 2 adult
+                            </div>
+                            <div class="price">
+                                00$
+                            </div>
+                        </div>
+
+                        <div class="bill-item">
+                            <div class="title">
+                                Taxes and fees
+                            </div>
+                            <div class="price">
+                                00$
+                            </div>
+                        </div>
+
+                        <div class="bill-item subtotal">
+                            <div class="title">
+                                Subtotal
+                            </div>
+                            <div class="price">
+                                00$
+                            </div>
+                        </div>
+
+                        <div class="bill-item">
+                            <div class="title">
+                                Service tax
+                            </div>
+                            <div class="price">
+                                00$
+                            </div>
+                        </div>
+
+                        <div class="bill-item total">
+                            <div class="title">
+                                Total
+                            </div>
+                            <div class="price">
+                                00$
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-pay">Pay now</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

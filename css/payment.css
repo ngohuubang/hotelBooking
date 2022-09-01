@@ -1,0 +1,470 @@
+*{
+    font-family: 'EB Garamond';
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5{
+    margin:0;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.btn{
+    border: none;
+    cursor: pointer;
+}
+
+/* css header main */
+
+.header{
+    padding-top: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    color:#000;
+    position: relative;
+}
+
+
+/*********************************************************************/
+
+.header-logo{
+    flex:1;
+}
+
+.header .header-logo a{
+    color: #000;
+}
+
+.header i.fa-bars{
+    display: none;
+}
+
+.header-logo h2{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo-bottom{
+    display: flex;
+    align-items: center;
+}
+
+.logo-bottom .line-left, .logo-bottom .line-right{
+    width: 45px;
+    height: 1px;
+    background-color: #000;
+}
+
+.logo-bottom .flag{
+    width: 15px;
+    height: 11px;
+    background-color: #da251d;
+    position: relative;
+    margin: 0 20px;
+}
+
+
+.header-logo .flag img{
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+}
+
+/*********************************************************************/
+
+.header-menu{
+    flex:3;
+}
+
+.header .header-menu a{
+    color:#000;
+}
+
+ul.menu{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+li.menu-item{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+li.menu-active::before{
+    position: absolute;
+    bottom: 0;
+    content: "";
+    width: 10px;
+    height: 1px;
+    background-color: #000;
+}
+
+/*********************************************************************/
+
+.header-button{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-button .btn{
+    padding: 10px 37px;
+}
+
+.btn-login{
+    background-color:transparent;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color:#000;
+}
+
+.btn-signup{
+    background-color: #b5986d;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color:#fff;
+    border-radius: 10px;
+}
+
+/* end css header main */
+
+/* css info */
+.info{
+    padding: 85px 80px;
+}
+
+.info .payment-option .title h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 47px;
+    color: #232323;
+}
+
+.info .payment-option .option{
+    display: flex;
+    margin-top: 16px;
+}
+
+.info .payment-option .option .option-item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #232323;
+    opacity: 0.6;
+    margin-right: 80px;
+}
+
+.info .payment-option .option .option-item:nth-child(1){
+    opacity: 1;
+}
+
+
+.checkout{
+    display: flex;
+    margin-top: 100px;
+}
+
+.checkout .form-infomation{
+    flex: 2;
+    padding-right:90px;
+    border-right: 1px solid rgba(35, 35, 35, 0.6);;
+}
+
+.checkout .summary{
+    flex:1;
+    padding-left: 40px;
+}
+
+.form-infomation .checkout-option{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form-infomation .checkout-option::before{
+    content: " ";
+    width: 80px;
+    height: 1px;
+    background-color: #b5986d;
+    position: absolute;
+    bottom: -15px;
+}
+
+.form-infomation .checkout-option img{
+    margin-right: 110px;
+}
+
+/* css form */
+form.form-name{
+    margin-top: 55px;
+}
+
+form.form-name h5 + input{
+    width: 340px;
+}
+
+form.form-name input{
+    padding: 15px 0 15px 20px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(35, 35, 35, 0.6);
+    
+}
+
+form.form-name input[type=password]{
+    letter-spacing: 5px;
+    font-size: 16px;
+}
+
+form.form-name .form-name-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+form.form-name .form-name-item h5, form.form-name .form-name-item h4{
+    margin-bottom: 10px;
+}
+
+form.form-name h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #232323;
+    opacity: 0.6;
+}
+
+form.form-name h3{
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #232323;
+    margin-bottom: 27px;
+}
+
+form.form-name input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(35, 35, 35, 0.6);  
+}
+
+form.form-name .accept{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #232323;
+    opacity: 0.6;
+    margin-left: 18px;
+}
+
+​
+
+/* end css form*/
+
+/* css summary */
+
+.summary h4{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #232323;
+}
+
+.summary .bill{
+    margin-top: 55px;
+    width: 330px;
+}
+
+.summary .bill .bill-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #232323;
+    opacity: 0.6;
+}
+
+.summary .bill .bill-item.subtotal{
+    margin-top: 30px;
+    color: #b5986d;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    opacity: 1;
+}
+
+.summary .bill .bill-item.total{
+    margin-top: 70px;
+    color: #b5986d;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    opacity: 1;
+}
+
+.summary .btn-pay{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 11px 37px;
+    background-color: #b5986d;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+/* end css summary*/
+
+i.fa-bars{
+    display: none;
+}
+
+/* css resposive mobie */
+
+@media only screen and (max-width:1150px){
+    .header{
+        padding: 0;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .header::after{
+        content: none;
+    }
+
+    li.menu-active::before{
+        content: none;
+    }
+
+    .header-button{
+        display: none;
+    }
+
+    .header i.fa-bars{
+        display: block;
+        color:#000;
+        position: relative;
+        top:5px;
+        right: 10px;
+        font-size: 20px;
+    }
+
+    .menu-active{
+        transform: translateX(0) !important;
+        transition: all 0.25s linear;
+    }
+
+    .header-menu {
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #fff;
+        width: 200px;
+        transform: translateX(100%);
+        z-index: 1000;
+    }
+
+    .header-menu .menu{
+        color: #000;
+        flex-direction: column;
+        padding: 10px 0 0 20px;
+    }
+
+    .header-menu .menu li{
+        margin-top: 10px;
+    }
+
+    .main .title{
+        margin-top: 30px;
+    }
+
+    .main .title .main-title h2{
+        font-size: 50px;
+    }
+
+    .form-infomation .checkout-option img{
+        margin-right: 40px;
+    }
+
+    form.form-name .form-name-item div + div{
+        margin-top: 30px;
+    }
+
+/****************************************************/
+    .info{
+        padding: 50px 5px 0 5px;
+    }
+
+    .info .payment-option .title h2{
+        text-align: center;
+    }
+
+    .info .payment-option .option{
+        justify-content: space-between;
+    }
+    .info .payment-option .option .option-item{
+        margin-right: unset;
+    }
+
+/***********************************************************/
+
+    .checkout{
+        flex-direction: column;
+    }
+
+    .checkout .form-infomation{
+        padding: 0;
+    }
+    
+    form.form-name .form-name-item{
+        flex-direction: column;
+    }
+
+    form.form-name input[type=text], form.form-name input[type=password], form.form-name input[type=email]{
+        width: 100%;
+    }
+
+    form.form-name input[type=checkbox]{
+        width: 30px;
+    }
+
+/*********************************************************/
+    .checkout .summary{
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .summary .bill{
+        width: unset;
+    }
+}
+
