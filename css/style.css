@@ -416,26 +416,26 @@ li.menu-active::before{
 
 .favorite .slider-item:nth-child(1){
     
-    background: url(../img/slide4.png) no-repeat center;
+    background: url(../img/Slide4.png) no-repeat center;
     
 }
 
 .favorite .slider-item:nth-child(2){
-    background: url(../img/slide2.png) no-repeat center;
+    background: url(../img/Slide2.png) no-repeat center;
 }
 
 .favorite .slider-item:nth-child(3){
-    background: url(../img/slide3.png) no-repeat center;
+    background: url(../img/Slide3.png) no-repeat center;
     transform: scale(1.16842, 1.1656);
 }
 
 .favorite .slider-item:nth-child(4){
-    background: url(../img/slide1.png) no-repeat center;
+    background: url(../img/Slide1.png) no-repeat center;
 }
 
 .favorite .slider-item:nth-child(5){
 
-    background: url(../img/slide5.png) no-repeat center;
+    background: url(../img/Slide5.png) no-repeat center;
 }
 
 /* end css favorite */
