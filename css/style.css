@@ -9,7 +9,6 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 0;
-    overflow: hidden;
 }
 
 .btn{
@@ -417,26 +416,26 @@ li.menu-active::before{
 
 .favorite .slider-item:nth-child(1){
     
-    background: url(../img/Slide4.png) no-repeat center;
+    background: url(../img/slide4.png) no-repeat center;
     
 }
 
 .favorite .slider-item:nth-child(2){
-    background: url(../img/Slide2.png) no-repeat center;
+    background: url(../img/slide2.png) no-repeat center;
 }
 
 .favorite .slider-item:nth-child(3){
-    background: url(../img/Slide3.png) no-repeat center;
+    background: url(../img/slide3.png) no-repeat center;
     transform: scale(1.16842, 1.1656);
 }
 
 .favorite .slider-item:nth-child(4){
-    background: url(../img/Slide1.png) no-repeat center;
+    background: url(../img/slide1.png) no-repeat center;
 }
 
 .favorite .slider-item:nth-child(5){
 
-    background: url(../img/Slide5.png) no-repeat center;
+    background: url(../img/slide5.png) no-repeat center;
 }
 
 /* end css favorite */
@@ -444,7 +443,7 @@ li.menu-active::before{
 
 .welcome{
     width: 100%;
-    height: 1370px;
+    height: 1152px;
     background-color: #e9e9e9;
     padding-left: 153px;
     padding-right: 153px;
@@ -843,6 +842,27 @@ li.menu-active::before{
     overflow: hidden;
 }
 
+.hotel .slider .slider-center{
+    position: relative;
+}
+
+.hotel .slider .slider-center .hotel-price{
+    position: absolute;
+    top:77px;
+    right: 0;
+    background-color: #fff;
+    padding: 6px 24px 6px 12px;
+    border-radius: 20px 0 0 20px;
+}
+
+.hotel .slider .slider-center .hotel-price span{
+    font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+color: #232323;
+}
+
 
 .hotel .slider-item:nth-child(1){
     /* margin-left: 0 !important; */
@@ -949,6 +969,10 @@ li.menu-active::before{
     font-weight: 400;
     font-size: 20px;
     margin-right: 100px;
+}
+
+.new .tab .tab-title .tab-title-item.disable{
+    opacity: 0.6;
 }
 
 .tab .tab-content{
@@ -1126,7 +1150,7 @@ li.menu-active::before{
         flex-wrap: wrap;
         position: relative;
     }
-    
+
     .header .header-menu a{
         color:#000;
     }
