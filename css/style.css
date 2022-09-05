@@ -1267,6 +1267,10 @@ color: #232323;
         font-size: 35px;
     }
 
+    .welcome-desc .description .main-title{
+        height: unset;
+        width: unset;
+    }
     
 
     .welcome .welcome-img{
@@ -1277,6 +1281,7 @@ color: #232323;
         margin-top: unset;
         width: unset;
         height: 800px;
+        padding: 0 20px 50px 20px;
     }
 
     .welcome .welcome-desc .description{
@@ -1320,7 +1325,7 @@ color: #232323;
     }
 
     .hotel-search .search-input{
-        padding: 10px 100px 10px 25px;
+        padding: 10px 50px 10px 25px;
     }
 
     .hotel .slider{
@@ -1341,7 +1346,7 @@ color: #232323;
     }
 
     .new .tab .tab-title .tab-title-item{
-        margin-right: 50px;
+        margin-right: 20px;
     }
 
     .tab .tab-content{
